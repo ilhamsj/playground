@@ -4,6 +4,7 @@ import "./assets/App.css";
 import Create from "./components/Create";
 import Edit from "./components/Edit";
 import Index from "./components/Index";
+import Show from "./components/Show";
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/create" component={Create} />
         <Route path="/index" component={Index} />
         <Route path="/edit/:id" component={Edit} />
+        <Route path="/show/:id" component={Show} />
       </Switch>
     </Router>
   );

@@ -30,7 +30,7 @@ export default class Index extends Component {
   render() {
     return (
       <div>
-        <h3>List</h3>
+        <h3>Popular List</h3>
         <ul>{this.tabRow()}</ul>
       </div>
     );
