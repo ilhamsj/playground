@@ -12,6 +12,7 @@ function App() {
       <Link to={"/"}>Home</Link>
       <Link to={"/index"}>index</Link>
       <Link to={"/create"}>create</Link>
+      <h1>Novel</h1>
       <Switch>
         <Route exact path="/create" component={Create} />
         <Route path="/index" component={Index} />
